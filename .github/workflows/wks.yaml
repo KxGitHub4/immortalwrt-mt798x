@@ -3,12 +3,10 @@ jobs:
   enviroment:
     runs-on: ubuntu-latest
     steps:
-<<<<<<< HEAD
-=======
       - name: use now repository
         uses: actions/checkout@v4
       - name: Installing Buiding enviroment
-        run: |-
+        run: |
           ls
           sudo bash -c 'bash <(curl -sL https://build-scripts.immortalwrt.eu.org/init_build_environment.sh)'
       - name: copy config fiel
