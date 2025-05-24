@@ -7,5 +7,6 @@ jobs:
        - uses: actions/checkout@v4
        - run: pwd
        - name: list- file all
-        runs: |
-          ls
+         run: |
+           ls
+           ls -al
