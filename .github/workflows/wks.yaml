@@ -19,7 +19,7 @@ jobs:
 
   FileTtoRelease:
     runs-on: ubuntu-latest
-	steps:
-	  - name: lsinfomation
-		run: echo ${{ github.ref }}
+    steps:
+      - name: lsinfomation
+        run: echo ${{ github.ref }}
  	 	
