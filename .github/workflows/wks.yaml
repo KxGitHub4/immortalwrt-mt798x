@@ -21,5 +21,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: lsinfomation
-        run: echo ${{ github.ref }}
- 	 	
+        run: echo hi
