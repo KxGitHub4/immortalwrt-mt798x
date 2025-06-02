@@ -15,10 +15,4 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
       - name: building
-        run: make -j$(nproc)
-
-  FileTtoRelease:
-    runs-on: ubuntu-latest
-    steps:
-      - name: lsinfomation
-        run: echo hi
+        run: make -j4
