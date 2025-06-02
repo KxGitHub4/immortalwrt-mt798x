@@ -15,4 +15,4 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
       - name: building
-        run: make -j4
+        run: make -j1 V=sc
